@@ -1,0 +1,21 @@
+*{
+    border: solid 1px red;
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.height-800{
+    height: 800px;
+}
+
+.container {
+    background-color: #555;
+}
+
+
+/* In CSS, la proprietà WIDTH definisce la larghezza orizzontale di un elemento, determinando quanto spazio occupa sulla pagina web. Puoi impostarla con unità di misura come pixel (px), percentuali (%), oppure lasciare che il browser la calcoli automaticamente con il valore auto */
+/* In CSS, la proprietà HEIGHT serve per definire l'altezza di un elemento HTML, specificando la distanza tra il suo bordo superiore e quello inferiore. Puoi impostarla usando valori numerici con unità di misura (come px, %), o con parole chiave come auto, che fa adattare l'altezza al contenuto dell'elemento */
