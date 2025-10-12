@@ -6,23 +6,93 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flex: Footer di Axia</title>
 
-    <link rel="stylesheet" href="style.css"> <!-- Ho collegato il foglio di stile css al file html -->    
+    <link rel="stylesheet" href="style.css"> <!-- Ho collegato il foglio di stile css al file html -->
 </head>
 
 <body>
 
     <!-- "main-div": box principale (più grande) - composto da "first-child", "divider" e "second-child"-->
-     <!-- "first-child" - composto da "first-child-contatti", "first-child-link", "first-child-dati" -->
-    <div class="main-div height-800">
-        <div class="first-child">
-            <div class="first-child-contatti"></div>
-            <div class="first-child-link"></div>
-            <div class="first-child-dati"></div>
+    <!-- "first-child" - composto da "first-child-contatti", "first-child-link", "first-child-dati" -->
+    <div class="main-div height-800 width-max">
+        <div class="main-div-center">
+            <div class="first-child">
+
+                <div class="first-child-logo width-max"><img src="https://www.axiaformazione.it/images/footer-axia.png" alt="Axia Logo" width="200" height="100"></div>
+
+                <div class="first-child-1">
+                    <h4 style="color: #d4a44f;">CONTATTI</h4>
+                    <ul class="no-list-style ul-colomn">
+                        <li>
+                            <p>
+                                <span>Via Bartolomeo Bosco 31/8 - 16121 Genova</span>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <span>010.0994100</span>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <span>info@axiaformazione.it</span>
+
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <span>axia.formazione@legalmail.it</span>
+                            </p>
+                        </li>
+                    </ul>
+
+                </div>
+                
+                <div class="first-child-2">
+
+                    <h4 style="color: #d4a44f;">LINK UTILI</h4>
+                    <!-- <tr>
+                        <td>Inscrizione Newslette</td>
+                        <td>contatti</td>
+                        <td>Data Protection Policy</td>
+                        <td>Cookies</td>
+                    </tr> -->
+                    <table class="border-spacing-10">
+                        <tr>
+                            <td>Iscrizione Newsletter</td>
+                        </tr>
+                        <tr>
+                            <td>Contatti</td>
+                        </tr>
+                        <tr>
+                            <td>Data Protection Policy</td>
+                        </tr>
+                        <tr>
+                            <td>Cookies</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="first-child-3">
+
+                    <h4 style="color: #d4a44f;">DATI AMMINISTRATIVI</h4>
+                    <ul class="no-list-style ul-colomn">
+                    <li><p><span>Partita IVA / 02601930999</span></p></li>
+                    <li><p><span>Codice Univoco / USAL8PV</span></p></li>
+                    <li><p><span>REA / GE - 498182</span></p></li>
+                    <li><p><span>Capitale Sociale / 100.000,00 €</span></p></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="divider"></div>
+
+            <div class="second-child">
+                <div class="text-align-center">© 2025 Axía Formazione & Consulenza S.r.l. / Tutti i diritti riservati / Sito realizzato da Gruppo SIGLA</div>
+            </div>
+
         </div>
-        <div class="divider"></div>
-        <div class="second-child"></div>
-        
-    </div>  
+    </div>
 </body>
 
 </html>

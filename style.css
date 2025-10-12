@@ -1,46 +1,95 @@
-*{
+* {
     border: solid 1px red;
     box-sizing: border-box;
 }
 
-html, body {
+
+html,
+body {
     margin: 0;
     padding: 0;
     color: white;
 }
 
-.height-800{
+
+.height-800 {
     height: 800px;
 }
 
+
+.width-max {
+    width: 100%;
+}
+
+
 .main-div {
+    background-image: url(https://www.axiaformazione.it/images/footer-con-immagine.jpg);
+    background-size: cover;
     background-color: #555555;
     display: flex;
+    justify-content: center;
 }
+
+
+ul {
+    display: flex;
+}
+
 
 .divider {
     border: solid 1px rgba(255, 255, 255, 0.5);
 }
 
-.first-child{
-width: 1100px;
-height: 700px;
+
+.first-child {
+    width: 1200px;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
-.first-child-contatti{
 
+.first-child-logo{
+    margin-top: 30px;
+    /* per dare uno spazio tra il bordo superiore della pagina e il box dell'elemento */
+    display: flex;
+    justify-content: center;
+    height: min-content;
+    /* min-height è una proprietà CSS che imposta l'altezza minima di un elemento, assicurando che non si riduca mai al di sotto di quel valore, anche se il suo contenuto è più piccolo. */
 }
 
-.first-child-link{
 
+.no-list-style{
+    list-style: none;
+    /* per togliere i pallini dalla lista */
 }
 
-.first-child-dati{
 
+.ul-colomn{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
-.second-child{
 
+.border-spacing-10{
+    border-spacing: 10px;
+    /* per creare spazio tra le celle */
 }
+
+
+.second-child {
+    height: 200px;
+    align-content: center;
+}
+
+
+.text-align-center{
+    text-align: center;
+    /* usare text-align con immagini è un errore semantico */
+}
+
+
 /* In CSS, la proprietà WIDTH definisce la larghezza orizzontale di un elemento, determinando quanto spazio occupa sulla pagina web. Puoi impostarla con unità di misura come pixel (px), percentuali (%), oppure lasciare che il browser la calcoli automaticamente con il valore auto */
 /* In CSS, la proprietà HEIGHT serve per definire l'altezza di un elemento HTML, specificando la distanza tra il suo bordo superiore e quello inferiore. Puoi impostarla usando valori numerici con unità di misura (come px, %), o con parole chiave come auto, che fa adattare l'altezza al contenuto dell'elemento */
